@@ -5,8 +5,6 @@
 **Wildfire + flood/typhoon video analytics: dual-spectrum watchtower early-smoke detection · water-gauge reading · sky-space-ground three-source fusion. Zero-miss discipline and false-alarm budgets, enforced in code.**
 
 ![python](https://img.shields.io/badge/python-3.8%2B-blue)
-<!-- Replace OWNER/REPO with the actual repo path when publishing, and copy ci.yml to .github/workflows/ci.yml -->
-![ci](https://img.shields.io/badge/CI-pending-lightgrey)
 ![deps](https://img.shields.io/badge/core%20deps-numpy%20%2B%20opencv-orange)
 ![tests](https://img.shields.io/badge/tests-85%20passed-brightgreen)
 ![gate](https://img.shields.io/badge/image%20gate-163%20img%20full--matrix-brightgreen)
