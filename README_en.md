@@ -12,6 +12,9 @@
 ![gate](https://img.shields.io/badge/image%20gate-163%20img%20full--matrix-brightgreen)
 ![license](https://img.shields.io/badge/license-Commercial-blue)
 
+[![powered by AutoVision](https://img.shields.io/badge/powered%20by-AutoVision-0FDC78)](https://github.com/hi-agi-lab/AutoVision)
+[![pypi](https://img.shields.io/pypi/v/autovision-framework)](https://pypi.org/project/autovision-framework/)
+
 English | **[简体中文](README.md)**
 
 <img src="images/demo_pipeline.gif" alt="Watchtower pipeline: preset frame → smoke detection + cloud/fog gating → temporal 3-feature confirmation → AI-Reference recheck / whitelist → risk4 duty push" width="760px"/>
@@ -270,3 +273,7 @@ night-fire/flame material belongs to the thermal/flame protocol) are in
 `MATERIAL_ADMISSION.md`. Deploy only in emergency-authority-led programs;
 system alerts do not replace the statutory fire-reporting chain and are
 never public warnings.
+
+---
+
+The detection backbone, streaming inference runtime, and export chain of this solution are provided by the open-source framework [AutoVision](https://github.com/hi-agi-lab/AutoVision) (`pip install autovision-framework`); see the [integration design](https://hi-agi-lab.github.io/AutoVision/ecosystem/) for details.

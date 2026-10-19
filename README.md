@@ -12,6 +12,9 @@
 ![gate](https://img.shields.io/badge/image%20gate-163%20img%20full--matrix-brightgreen)
 ![license](https://img.shields.io/badge/license-Commercial-blue)
 
+[![powered by AutoVision](https://img.shields.io/badge/powered%20by-AutoVision-0FDC78)](https://github.com/hi-agi-lab/AutoVision)
+[![pypi](https://img.shields.io/pypi/v/autovision-framework)](https://pypi.org/project/autovision-framework/)
+
 **[English](README_en.md)** | 简体中文
 
 <img src="images/demo_pipeline.gif" alt="瞭望塔管线: 预设位取帧 → 烟柱检出+云雾消歧 → 时序三特征三取二 → AI-Reference 复核/白名单 → risk4 值班推送" width="760px"/>
@@ -226,3 +229,7 @@ python -m emg_guard.runner --config emg_guard/deploy/config.example.json
 提供。烟柱正例素材准入规则（白昼可见烟柱；夜火/明火素材归位热像/明火
 通道协议）见 `MATERIAL_ADMISSION.md`。系统仅在应急管理部门主导的场景
 部署；系统告警不替代法定火情报告链，不做对外预警发布。
+
+---
+
+本方案的检测底座、流式推理运行时与导出链路由开源框架 [AutoVision](https://github.com/hi-agi-lab/AutoVision) 提供（`pip install autovision-framework`）；接入设计见[《行业方案接入》](https://hi-agi-lab.github.io/AutoVision/ecosystem/)。
